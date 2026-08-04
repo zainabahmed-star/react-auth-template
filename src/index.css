@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Schoolbell&display=swap');
 
 :root {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Google Sans Flex", sans-serif;
 
   --color-primary: #4f46e5;
   --color-primary-dark: #4338ca;
@@ -22,9 +22,9 @@
 body {
   min-height: 100vh;
   margin: 0;
-  background: #2A7B9B;
-  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-
+  /* background-color: var(--color-background); */
+  background: #E0E7FF;
+  background: linear-gradient(90deg, rgba(224, 231, 255, 1) 0%, rgb(111, 25, 111) 100%);
   color: var(--color-text);
 }
 
